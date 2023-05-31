@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "esquerdo esquerdo direito direito";
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.header{
+    grid-area: header;
+    padding: 30px;
+}
+
+.container-esquerdo{
+    grid-area: esquerdo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-principal{
+    height: 90%;
+    margin-top: 15px;
+}
+
+.container-direito{
+    grid-area: direito;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.container-direito .titulo-secundario{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 600;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.container-direito p{
+    font-size: 2rem;
+    color: #fff;
+    width: 78%;
+}
+
+.container-direito .btn{
+    font-size: 2rem;
+    text-align: center;
+    color: hsl(257, 40%, 49%);
+    border-radius: 50px;
+    padding: 15px;
+    margin: 20px 0px;
+    width: 150px;
+    background-color: #fff;
+    box-shadow: 0 0 20px hsl(257, 40%, 49%);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.container-direito .btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    box-shadow: 0 0 15px #000000;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.social a{
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 8px;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.social a i{
+    font-size: 1.8rem;
+}
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
+    box-shadow: 0 0 10px #fff;
+}

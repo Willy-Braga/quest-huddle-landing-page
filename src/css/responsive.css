@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .container{
+        display: grid;
+        grid-template-areas:
+        "header header header header"
+        "esquerdo esquerdo esquerdo esquerdo"
+        "direito direito direito direito";
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .container-esquerdo{
+        padding: 20px;
+    }
+
+    .container-direito{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container-direito .titulo-secundario{
+        font-size: 3rem;
+    }
+
+    .container-direito .btn{
+        padding: 20px;
+        font-size: 2rem;
+    }
+
+    .social a i{
+        font-size: 2.5rem;
+    }
+}
