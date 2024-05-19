@@ -63,7 +63,7 @@ Desejo focar mais na área Flex e Grid e na parte de transições do CSS para me
 
 ### Recursos úteis
 
-- [Resumo](https://angry-helicopter-3a6.notion.site/Resumos-DevQuest-d9c3dc80b08a4037a35ddb6d90355f0c) - Os meus resumos feitos com base no curso DEVQUEST me ajudaram bastante na criação desse projeto;
+- [Resumo](https://willybraga.notion.site/Resumos-Programa-o-d9c3dc80b08a4037a35ddb6d90355f0c?pvs=4) - Os meus resumos feitos com base no curso DEVQUEST me ajudaram bastante na criação desse projeto;
 
 ## Autor
 
