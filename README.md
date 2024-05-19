@@ -22,6 +22,8 @@
 ![](/src/design/desktop-design.jpg)
 
 
+![](/src/design/mobile-design.jpg)
+
 ## Meu processo
 
 ### Construído com
